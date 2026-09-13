@@ -1,0 +1,75 @@
+{
+  "name": "ExamPro – Competitive Quiz & PYQ Platform",
+  "short_name": "ExamPro",
+  "description": "Master competitive exams like SSC CGL, Banking, RRB NTPC, UPSC, and State PSCs with authentic quizzes, verified PYQs, and full mock tests.",
+  "id": "exampro-app-pwa",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0f19",
+  "theme_color": "#4f46e5",
+  "categories": [
+    "education",
+    "productivity",
+    "exams"
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Quick Quiz",
+      "short_name": "Quick Quiz",
+      "description": "Start an instant 10-question practice quiz",
+      "url": "./index.html#quiz",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Previous Year Questions (PYQ)",
+      "short_name": "PYQ Bank",
+      "description": "Practice verified previous year questions",
+      "url": "./index.html#pyq",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Full Mock Tests",
+      "short_name": "Mock Test",
+      "description": "Take timed mock tests with negative marking",
+      "url": "./index.html#mock",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Revision Vault",
+      "short_name": "Mistakes",
+      "description": "Review and re-attempt missed questions",
+      "url": "./index.html#vault",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

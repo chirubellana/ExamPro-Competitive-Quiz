@@ -1,0 +1,20 @@
+# Netlify & Cloudflare Pages Production Headers
+
+# Service Worker - Never cache aggressively
+/service-worker.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+# Web App Manifest
+/manifest.json
+  Content-Type: application/manifest+json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+# Static Icons & Assets
+/icons/*
+  Cache-Control: public, max-age=604800
+
+# General Security Headers
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
